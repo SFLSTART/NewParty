@@ -827,6 +827,7 @@ section.contact-infos {
     border: 1px solid #eee;
     margin-bottom: 15px;
     padding: 10px;
+    margin-top:50px;
 }
 /*about us*/
 .about-us img { width: 100% }
