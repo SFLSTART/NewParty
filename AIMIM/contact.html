@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <link rel="shortcut icon" href="img/favicon.png">
@@ -25,6 +26,7 @@
 </script>
 <![endif]-->
 </head>
+
 <body>
     <!--header start-->
     <header class="head-section header-main">
@@ -32,21 +34,19 @@
 		<div class="row">-->
         <div class="green-logo">
             <span class="joinAIMIM">for Joining AIMIM, PCMC: miss call on - 9555404840</span>
-            <img title="All India Majlis-e-Ittehadul Muslimeen" alt="All India Majlis-e-Ittehadul Muslimeen"
-                src="img/aimim-logo.png"></div>
+            <img title="All India Majlis-e-Ittehadul Muslimeen" alt="All India Majlis-e-Ittehadul Muslimeen" src="img/aimim-logo.png"></div>
         <!--</div>
 	</div>-->
         <div class="navbar navbar-default navbar-static-top container">
             <div class="navbar-header">
-                <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse"
-                    type="button">
+                <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button">
                     <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar">
                     </span>
                 </button>
                 <div class="logo" id="divLogo">
                     <a href="index.html">
                         <img style="border: 0px currentColor;" alt="" src="img/aimim-election-symbol.png"></a>
-                
+
                     <h1>
                         AIMIM</h1>
                     <h2>
@@ -57,10 +57,10 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li><a href="index.html">Home</a> </li>
-                    <li class="dropdown"><a class="dropdown-toggle"  data-hover="dropdown" href="about.html">About Party <i class="fa fa-angle-down">
+                    <li class="dropdown"><a class="dropdown-toggle" data-hover="dropdown" href="about.html">About Party <i class="fa fa-angle-down">
                         </i></a>
-                        <ul class="dropdown-menu">  
-                            <li><a href="about.html">About Party</a> </li>                         
+                        <ul class="dropdown-menu">
+                            <li><a href="about.html">About Party</a> </li>
                             <li><a href="history.html">History</a> </li>
                         </ul>
                     </li>
@@ -95,33 +95,15 @@
     <!--container start-->
     <div class="container">
         <div class="row">
-            <div class="col-lg-5 col-sm-5 address">
-                <section class="contact-infos">
-                    <h4 class="title custom-font text-black">
-                        <b>ADDRESS</b>
+            <div class="col-lg-5 col-sm-5  address">
+               <h4 class="title custom-font text-center text-black">
+                        <b>Map Address</b>
                     </h4>
-                    <address>
-                       B.G CORNER, NEAR ALPLINE HOTEL,<br /> PIMPRI CHOWK,<br />PCMC,<br /> MAHARASHTRA, INDIA.
-                    </address>
-                </section>
                 <section class="contact-infos">
-                    <h4 class="title custom-font text-black">
-                        <b>BUSINESS HOURS</b>
-                    </h4>
-                    <p>
-                        Mon-Fri: 10:00 am - 7:00 pm </br> Sat: 10:00 am - 2:00 pm
-                        <br>
-                        Sunday- Closed
-                        <br>
-                    </p>
-                </section>
-                <section class="contact-infos">
-                    <h4>
-                        <b>TELEPHONE</b>
-                    </h4>
-                    <p>
-                        <i class="icon-phone"></i>+91 9960606082 / +91 7028881888
-                    </p>
+                    <!--google map start-->
+                        <div id="map-canvas" style="width: 100%; height: 300px;">
+                        </div>
+                    <!--google map end-->
                 </section>
             </div>
             <div class="col-lg-7 col-sm-7 address">
@@ -130,32 +112,32 @@
                 </h4>
                 <div class="contact-form">
                     <form role="form" name="sa_htmlform" style="margin:0px" onsubmit="return sa_contactform()" action="">
-                    <div class="form-group">
-                        <label for="name">
+                        <div class="form-group">
+                            <label for="name">
                             Name
                         </label>
-                        <input type="text" placeholder="" id="name" class="form-control">
-                    </div>
-                    <div class="form-group">
-                        <label for="email">
+                            <input type="text" placeholder="" id="name" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">
                             Email
                         </label>
-                        <input type="text" placeholder="" id="email" class="form-control">
-                    </div>
-                    <div class="form-group">
-                        <label for="phone">
+                            <input type="text" placeholder="" id="email" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">
                             Phone
                         </label>
-                        <input type="text" id="phone" class="form-control">
-                    </div>
-                    <div class="form-group">
-                        <label for="phone">
+                            <input type="text" id="phone" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">
                             Message
                         </label>
-                        <textarea placeholder="" rows="5" class="form-control">
+                            <textarea placeholder="" rows="5" class="form-control">
                 </textarea>
-                    </div>
-                    <button class="btn btn-info" type="submit">
+                        </div>
+                        <button class="btn btn-info" type="submit">
                         Submit
                     </button>
                     </form>
@@ -164,59 +146,63 @@
         </div>
     </div>
     <!--container end-->
-    <!--google map start-->
-    <div class="contact-map">
-        <div id="map-canvas" style="width: 100%; height: 400px">
-        </div>
-    </div>
-    <!--google map end-->
+
     <!--small footer start -->
     <footer class="footer-small">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
                     <div class="copyright">
-                        <i class="fa fa-home pr-10"></i>B.G CORNER, NEAR ALPLINE HOTEL,<br />
-                        PIMPRI CHOWK,<br />
-                        PCMC,<br />
-                        MAHARASHTRA, INDIA.
-                         </div>
+                        <i class="fa fa-home pr-10"></i>B.G CORNER, NEAR ALPLINE HOTEL,<br /> PIMPRI CHOWK, PCMC,<br /> MAHARASHTRA,
+                        INDIA.
+                    </div>
                 </div>
                 <div class="col-md-3">
                     <div class="copyright">
                         <p><i class="fa fa-phone pr-10"></i>+91 9960606082 / +91 7028881888</br>
-                        <i class="fa fa-envelope pr-10"></i><a href="javascript:;">info@aimimpcmc.org</a></br>
-                         &copy; Copyright - AIMIM PCMC.</p>
+                            <i class="fa fa-envelope pr-10"></i><a href="javascript:;">info@aimimpcmc.org</a></br>
+                            &copy; Copyright - AIMIM PCMC.</p>
                     </div>
                 </div>
                 <div class="col-md-3 pull-right">
                     <ul class="social-link-footer list-unstyled">
-                        <li class="wow flipInX" data-wow-duration="2s" data-wow-delay=".1s"><a href="https://www.facebook.com/Aimimpcmc-1471075753201485/">
-                            <i class="fa fa-facebook"></i></a></li>
-                        <li class="wow flipInX" data-wow-duration="2s" data-wow-delay=".5s"><a href="https://twitter.com/aimimpcmc1">
-                            <i class="fa fa-twitter"></i></a></li>
+                        <li class="wow flipInX" data-wow-duration="2s" data-wow-delay=".1s">
+                            <a href="https://www.facebook.com/Aimimpcmc-1471075753201485/">
+                                <i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li class="wow flipInX" data-wow-duration="2s" data-wow-delay=".5s">
+                            <a href="https://twitter.com/aimimpcmc1">
+                                <i class="fa fa-twitter"></i></a>
+                        </li>
                     </ul>
                 </div>
             </div>
         </div>
     </footer>
     <!--small footer end-->
-    
+
     <!-- js placed at the end of the document so the pages load faster -->
     <script src="js/jquery.js">
+
     </script>
     <script src="js/bootstrap.min.js">
+
     </script>
     <script type="text/javascript" src="js/hover-dropdown.js">
+
     </script>
     <script type="text/javascript" src="assets/bxslider/jquery.bxslider.js">
+
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&AMP;sensor=false">
+
     </script>
     <!--common script for all pages-->
     <script src="js/common-scripts.js">
+
     </script>
     <script src="js/wow.min.js">
+
     </script>
     <script>
         wow = new WOW(
@@ -229,7 +215,6 @@
         wow.init();
     </script>
     <script>
-
         //google map
         function initialize() {
             var myLatlng = new google.maps.LatLng(18.629120, 73.801035);
@@ -247,15 +232,12 @@
                                            );
         }
         google.maps.event.addDomListener(window, 'load', initialize);
-
-
-
     </script>
     <script lang="javascript">
-
         var sa_email_id = '67907-2f7de';
         var sa_sent_text = 'Thank you for contacting us. We will get back to you soon.';
     </script>
     <script language="javascript" src="js/sa_htmlform.js"></script>
 </body>
+
 </html>
