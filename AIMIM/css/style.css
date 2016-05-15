@@ -3021,16 +3021,16 @@ div.header h3{
        
        
        
-       .joinAIMIM
+       
+        .joinAIMIM
        {
-           color : Blue;
+           color : white;
            float : right;
            padding-right:30px;
-           background-color:Lime;
+           background-color:#2b73ee;
            margin-top : 40px;
            padding-left:30px;
-       }
-       
+       } 
        .galimgcaption
        {
            background-color:#23793a;
