@@ -6,7 +6,7 @@ Website:
 */
 body 
 {
-    background-color:#d8fccf;
+    background-color:lightGreen;
     color: black;
     font-family: 'Lato', sans-serif;
     /*font-family: 'Open Sans', sans-serif;*/
@@ -21,11 +21,11 @@ a:focus {
     outline: none;
 }
 ::selection {
-    background: #5D9CEC;
+    background: #D81B81;
     color: #fff;
 }
 ::-moz-selection {
-    background: #5D9CEC;
+    background: #D81B81;
     color: #fff;
 }
 h1,
@@ -38,7 +38,7 @@ h6 {
     /*font-family: 'Open Sans', sans-serif;*/
 }
 a { color: #fff; }
-a:hover { color: #d8fccf }
+a:hover { color: #D81B81 }
 p { line-height: 22px }
 /*header*/
 .head-section { border-bottom: 1px solid #eee }
@@ -60,10 +60,10 @@ p { line-height: 22px }
     margin-right: 0;
     z-index: 199;
 }
-.head-section .navbar-default { background-color: #d8fccf; }
+.head-section .navbar-default { background-color: lightGreen; }
 .head-section .nav li a,
 .head-section .nav li.active ul.dropdown-menu li a {
-    color: green;
+    color: #999;
     font-size: 14px;
     font-weight: 300;
     background: none;
@@ -1454,8 +1454,7 @@ ul.page-footer-list li i { padding-right: 10px }
     /*background-color: #fafafa;*/
 }
 .bg-lg { background:#f9f9f3  }
-.green-bg { background: #9afd9c }
-.white-bg { background: white }
+.gray-bg { background: #f9f9f3 }
 .property h1 {
     color: #475168;
     font-size: 24px;
@@ -2984,8 +2983,7 @@ div.header h3{
 {
     background-color: #23793a;
     text-align: center;
-    padding: 0px 0;
-     }
+    padding: 10px 0; }
      .header-main .navbar .navbar-header .logo a img {
         width: 64px;
         height: auto;
@@ -3015,15 +3013,7 @@ div.header h3{
    color:red;
 }
        
-        .joinAIMIM
-       {
-           color : white;
-           float : right;
-           padding-right:30px;
-           background-color:#2b73ee;
-           margin-top : 40px;
-           padding-left:30px;
-       } 
+       
        
        
        .feature a{color:Blue;}
@@ -3031,4 +3021,21 @@ div.header h3{
        
        
        
+       .joinAIMIM
+       {
+           color : Blue;
+           float : right;
+           padding-right:30px;
+           background-color:Lime;
+           margin-top : 40px;
+           padding-left:30px;
+       }
        
+       .galimgcaption
+       {
+           background-color:#23793a;
+           color:White;
+           text-align : center;
+           font-family :Lora Bold Italic;
+           font-weight:500;
+       }
