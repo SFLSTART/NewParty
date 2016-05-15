@@ -3015,7 +3015,15 @@ div.header h3{
    color:red;
 }
        
-       
+        .joinAIMIM
+       {
+           color : white;
+           float : right;
+           padding-right:30px;
+           background-color:#2b73ee;
+           margin-top : 40px;
+           padding-left:30px;
+       } 
        
        
        .feature a{color:Blue;}
