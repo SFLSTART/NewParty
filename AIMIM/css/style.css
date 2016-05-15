@@ -6,7 +6,7 @@ Website:
 */
 body 
 {
-    background-color:lightGreen;
+    background-color:#d8fccf;
     color: black;
     font-family: 'Lato', sans-serif;
     /*font-family: 'Open Sans', sans-serif;*/
@@ -21,11 +21,11 @@ a:focus {
     outline: none;
 }
 ::selection {
-    background: #D81B81;
+    background: #5D9CEC;
     color: #fff;
 }
 ::-moz-selection {
-    background: #D81B81;
+    background: #5D9CEC;
     color: #fff;
 }
 h1,
@@ -38,7 +38,7 @@ h6 {
     /*font-family: 'Open Sans', sans-serif;*/
 }
 a { color: #fff; }
-a:hover { color: #D81B81 }
+a:hover { color: #d8fccf }
 p { line-height: 22px }
 /*header*/
 .head-section { border-bottom: 1px solid #eee }
@@ -60,10 +60,10 @@ p { line-height: 22px }
     margin-right: 0;
     z-index: 199;
 }
-.head-section .navbar-default { background-color: lightGreen; }
+.head-section .navbar-default { background-color: #d8fccf; }
 .head-section .nav li a,
 .head-section .nav li.active ul.dropdown-menu li a {
-    color: #999;
+    color: green;
     font-size: 14px;
     font-weight: 300;
     background: none;
@@ -1454,7 +1454,8 @@ ul.page-footer-list li i { padding-right: 10px }
     /*background-color: #fafafa;*/
 }
 .bg-lg { background:#f9f9f3  }
-.gray-bg { background: #f9f9f3 }
+.green-bg { background: #9afd9c }
+.white-bg { background: white }
 .property h1 {
     color: #475168;
     font-size: 24px;
@@ -2983,7 +2984,8 @@ div.header h3{
 {
     background-color: #23793a;
     text-align: center;
-    padding: 10px 0; }
+    padding: 0px 0;
+     }
      .header-main .navbar .navbar-header .logo a img {
         width: 64px;
         height: auto;
@@ -3013,13 +3015,8 @@ div.header h3{
    color:red;
 }
        
-       
-       
-       
        .feature a{color:Blue;}
        .feature a:hover{color:#23793a;}
-       
-       
        
        
         .joinAIMIM
