@@ -2231,11 +2231,11 @@ ol.unstyled {
 .portfolio-wrapper {
     overflow: hidden;
     position: relative !important;
-    background: #666;
     cursor: pointer;
 }
 .portfolio img {
     max-width: 100%;
+    height: 250px;
     position: relative;
 }
 span.filter {
@@ -3030,8 +3030,8 @@ div.header h3{
        } 
        .galimgcaption
        {
-           background-color:#23793a;
-           color:White;
+           background-color:lightgreen;
+           color:white;
            text-align : center;
            font-family :Lora Bold Italic;
            font-weight:500;
