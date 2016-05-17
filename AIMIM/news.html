@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="img/favicon.png">
+   
     <title>AIMIM | News </title>
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -12,7 +10,7 @@
     <!--external css-->
     <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/flexslider.css" />
-    <link href="assets/bxslider/jquery.bxslider.css" rel="stylesheet" />
+   
     <link rel="stylesheet" href="css/animate.css">
     <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
     <!-- Custom styles for this template -->
@@ -29,14 +27,12 @@
 <body>
     <!--header start-->
     <header class="head-section header-main">
-        <!--<div class="container">
-		<div class="row">-->
+       
         <div class="green-logo">
          <span class="joinAIMIM">for Joining AIMIM: miss call on - 9555404840</span>
             <img title="All India Majlis-e-Ittehadul Muslimeen" alt="All India Majlis-e-Ittehadul Muslimeen"
                 src="img/aimim-logo.png"></div>
-        <!--</div>
-	</div>-->
+       
         <div class="navbar navbar-default navbar-static-top container">
             <div class="navbar-header">
                 <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse"
@@ -58,9 +54,10 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li><a href="index.html">Home</a> </li>
-                    <li class="dropdown"><a class="dropdown-toggle"  data-hover="dropdown" href="about.html">About Party <i class="fa fa-angle-down">
+                    <li class="dropdown"><a class="dropdown-toggle"  data-hover="dropdown" href="about.html">Our Party <i class="fa fa-angle-down">
                         </i></a>
                         <ul class="dropdown-menu">
+                         <li><a href="about.html">About Us</a></li>
                             <li><a href="history.html">History</a> </li>
                         </ul>
                     </li>
@@ -171,8 +168,7 @@
     </script>
     <script type="text/javascript" src="js/hover-dropdown.js">
     </script>
-    <script type="text/javascript" src="assets/bxslider/jquery.bxslider.js">
-    </script>
+    
     <script defer src="js/jquery.flexslider.js">
     </script>
     <script src="js/jquery.easing.min.js">
@@ -184,69 +180,6 @@
     <!--common script for all pages-->
     <script src="js/common-scripts.js">
     </script>
-    <script>
-
-        wow = new WOW(
-        {
-            boxClass: 'wow',      // default
-            animateClass: 'animated', // default
-            offset: 0          // default
-        }
-      )
-        wow.init();
-
-
-        $(window).load(function () {
-            $('.flexslider').flexslider({
-                animation: "slide",
-                start: function (slider) {
-                    $('body').removeClass('loading');
-                }
-            }
-                                   );
-        }
-                    );
-
-
-
-
-        $(window).scroll(function () {
-            $('#skillz').each(function () {
-                var imagePos = $(this).offset().top;
-                var viewportheight = window.innerHeight;
-
-                var topOfWindow = $(window).scrollTop();
-                if (imagePos < topOfWindow + viewportheight) {
-                    $('.skill_bar').fadeIn('slow');
-                    $('.skill_one').animate({
-                        width: '60%'
-                    }
-                                    , 2000);
-                    $('.skill_two').animate({
-                        width: '90%'
-                    }
-                                    , 2000);
-                    $('.skill_three').animate({
-                        width: '70%'
-                    }
-                                      , 1000);
-                    $('.skill_four').animate({
-                        width: '55%'
-                    }
-                                     , 1000);
-                    $('.skill_bar_progress p').fadeIn('slow', function () {
-
-                    }
-                                             );
-                }
-            }
-                         );
-        }
-                      );
-
-
-
-
-    </script>
+    
 </body>
 </html>
